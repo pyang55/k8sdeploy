@@ -68,4 +68,4 @@ build	29-Jul-2020 19:24:10	+----------------+--------------+---------+
 
 ## Notes
 * This is also written with support for helm3 only. There is only support to deploy with kubeconfig for helm2
-* This is currently works for me. This is what we use to deploy to multiple microservices to all of production, If this works for you, that is fantastic...if it doesn't...well, it still works for me.
+* This currently works for me. This is what we use to deploy to multiple microservices to all of production. If this works for you, that is fantastic...if it doesn't...well, it still works for me.
