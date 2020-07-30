@@ -18,7 +18,7 @@ import (
 	"sigs.k8s.io/aws-iam-authenticator/pkg/token"
 )
 
-// GetClient generates a k8s client
+// GetClient generates a k8s client based on kubeconfig
 func GetClient(kfg string) (*kubernetes.Clientset, error) {
 	config, err := clientcmd.BuildConfigFromFlags("", kfg)
 	if err != nil {
