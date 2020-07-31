@@ -1,5 +1,5 @@
 # k8sdeploy
-> A tool to deploy to multiple namespaces in a kubernetes cluster. There is added feature set to deploy to different types of clusters like GKE and EKS without the use of a kubeconfig (currently only EKS is supported)
+> A tool to deploy to multiple namespaces in a kubernetes cluster using Helm3 (helm2 support available). There is added feature set to deploy to different types of clusters like GKE and EKS without the use of a kubeconfig (currently only EKS is supported)
 
 ## Installation
 
